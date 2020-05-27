@@ -133,16 +133,16 @@ async function updateAngularJson() {
 
                 const stringData = JSON.stringify(jsonData);
 
-                // fs.writeFile('./angular.json', stringData, (err) => {
-                //     if (err) {
-                //         if (err.errno == -4058) {
-                //             console.log('Unable to update angular.json, Try again!'.red);
-                //         }
-                //         return;
-                //     };
-                //     console.log('Scripts Updated!'.green);
-                //     updateAppComponentHtml();
-                // });
+                fs.writeFile('./angular.json', stringData, (err) => {
+                    if (err) {
+                        if (err.errno == -4058) {
+                            console.log('Unable to update angular.json, Try again!'.red);
+                        }
+                        return;
+                    };
+                    console.log('Scripts Updated!'.green);
+                    updateAppComponentHtml();
+                });
             });
     })
 }
