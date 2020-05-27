@@ -11,6 +11,10 @@
   "keywords": [
     "ng-bootstrap-jquery"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rv98/ng-bootstrap-jquery"
+  },
   "author": "Ravi",
   "license": "ISC",
   "dependencies": {
