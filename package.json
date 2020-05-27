@@ -1,0 +1,22 @@
+{
+  "name": "ng-bootstrap-jquery",
+  "version": "1.0.0",
+  "description": "This package adds bootstrap jquery and popper.js to your angular project and also updates the angular.json file for your ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node index.js",
+    "install": ""
+  },
+  "keywords": [
+    "ng-bootstrap-jquery"
+  ],
+  "author": "Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "path": "^0.12.7"
+  }
+}
